@@ -1,8 +1,11 @@
+# SpringBoot Mapstruct testing example
+
 ## Overview
-Spring boot template repository
+Project for demonstrating how can be added unit tests for Mapstruct Mappers with SpringBoot.
+
 
 ## Building
-...
+mvn clean package
 
 ## Troubleshooting
 ...
