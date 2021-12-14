@@ -3,6 +3,7 @@
 ## Overview
 Project for demonstrating how can be added unit tests for Mapstruct Mappers with SpringBoot.
 
+Post with detailed guidelines: https://javarush.ru/groups/posts/3698
 
 ## Building
 mvn clean package
