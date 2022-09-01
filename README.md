@@ -4,7 +4,7 @@
 Project can be used as an example of how to add Mapstruct to the project and how can be used.
 
 Next, Project for demonstrating how can be added unit tests for Mapstruct Mappers with SpringBoot.
-Also, it is used to show the problems in testing mappers with `SpringBootTest` in post https://javarush.ru/groups/posts/3698
+Also, it is used to show the problems in testing mappers with `SpringBootTest` [in post](https://javarush.ru/groups/posts/3698) 
 
 In general, we can see, how Mapstruct can help us to map complicated POJOs, here we have next POJO:
 
