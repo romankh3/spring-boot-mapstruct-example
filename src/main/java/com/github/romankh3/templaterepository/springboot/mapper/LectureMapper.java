@@ -7,6 +7,7 @@ import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring", injectionStrategy = InjectionStrategy.CONSTRUCTOR)
 public interface LectureMapper {
+
     LectureDTO toDTO(LectureModel model);
 
     LectureModel toModel(LectureDTO dto);

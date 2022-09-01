@@ -9,6 +9,8 @@ import java.util.List;
 
 @Mapper(componentModel = "spring", uses = LectureMapper.class, injectionStrategy = InjectionStrategy.CONSTRUCTOR)
 public interface LectureListMapper {
+
     List<LectureModel> toModelList(List<LectureDTO> dtos);
+
     List<LectureDTO> toDTOList(List<LectureModel> models);
 }

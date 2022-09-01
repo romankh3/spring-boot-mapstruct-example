@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * Unit-level testing for {@link SpringBootTemplateRepository} object.
+ * Integration-level testing for checking that the application context runs as expected.
  */
 @SpringBootTest
 class SpringBootTemplateRepositoryTest {

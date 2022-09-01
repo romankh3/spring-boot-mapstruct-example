@@ -8,6 +8,9 @@ import org.junit.jupiter.api.Test;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Unit-level testing for {@link LectureMapper}.
+ */
 class LectureListMapperTest {
 
     private final LectureListMapper lectureListMapper = new LectureListMapperImpl(new LectureMapperImpl());

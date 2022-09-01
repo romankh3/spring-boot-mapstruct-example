@@ -7,6 +7,8 @@ import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring", injectionStrategy = InjectionStrategy.CONSTRUCTOR)
 public interface LecturerMapper {
+
     LecturerDTO toDTO(LecturerModel model);
+
     LecturerModel toModel(LecturerDTO dto);
 }

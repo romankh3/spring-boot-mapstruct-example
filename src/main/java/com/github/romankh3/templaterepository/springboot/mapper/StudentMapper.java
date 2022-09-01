@@ -9,6 +9,7 @@ import org.mapstruct.Mapper;
         uses = {LectureListMapper.class, LecturerListMapper.class},
         injectionStrategy = InjectionStrategy.CONSTRUCTOR)
 public interface StudentMapper {
+
     StudentDTO toDTO(StudentModel model);
 
     StudentModel toModel(StudentDTO dto);
